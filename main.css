@@ -1,0 +1,36 @@
+.jobs .row {
+  margin-right: unset !important;
+  margin-left: unset !important;
+}
+
+.jobs .col-6 {
+  flex: 0 0 48%;
+  padding: 5px !important;
+}
+
+.jobs .col-6:nth-child(odd) {
+  margin-right: 3%;
+}
+
+.jobs .col-6 .card-body {
+  padding: 2px;
+  height: 90px;
+}
+
+.top-card {
+  height: 50px;
+}
+
+.bottom-card {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  height: 40px;
+  padding: 10px;
+}
+.bottom-card .card-title {
+  margin-bottom: 0px;
+}
+
+.bottom-card span {
+  font-size: 11px;
+}
